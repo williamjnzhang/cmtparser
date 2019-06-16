@@ -18,7 +18,7 @@ package parser
 
 import (
 	"fmt"
-	"cmt/ast"
+	"github.com/williamjnzhang/cmtparser/ast"
 	"go/scanner"
 	"go/token"
 	"strconv"

@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"cmt/ast"
-	"cmt/parser"
+	"github.com/williamjnzhang/cmtparser/ast"
+	"github.com/williamjnzhang/cmtparser/parser"
 	"go/token"
 	"strings"
 )

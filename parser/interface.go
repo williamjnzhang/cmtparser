@@ -9,7 +9,7 @@ package parser
 import (
 	"bytes"
 	"errors"
-	"cmt/ast"
+	"github.com/williamjnzhang/cmtparser/ast"
 	"go/token"
 	"io"
 	"io/ioutil"
