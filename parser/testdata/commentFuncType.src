@@ -1,0 +1,38 @@
+package parse_test
+
+//func1
+func f1(s1 string /*f1s1*/, /*f1s2*/ s2 string) {
+    
+}
+
+
+// func2
+func f2 (
+    s1 string /*f2s1*/,
+    s2 string, //f2s2
+    s3 /*f2s3*/ string,
+    // f2s4
+    s4 string,
+    /*f2s5*/ s5 string,
+    s6 string, /*f2s6.1*/ /*f2s6.2*/
+) {
+
+}
+
+
+// func3
+func f3 (
+    s1 string /*f3s1*/,
+    t2 struct {
+        i1 int
+    } /*f3t2*/,
+    /*f3t3*/ t2 struct {
+        i1 int
+    },
+) {}
+
+// func5
+func f5() (string /*f5r1*/, int /*f5r2*/) {}
+
+// func6
+func f5() (/*f6r1*/ string, /*f5r2*/ int) {}

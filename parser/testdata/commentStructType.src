@@ -1,0 +1,14 @@
+package parser_test
+
+// struct1
+type s1 struct {
+    a string /*s1c1*/
+    b string // s1c2
+    // s1c3
+    c string
+    d /*s1c4*/ string;
+    /*s1c5*/ e string
+}
+
+// struct2
+type s2 struct {a string /*s2c1*/; /*s2c2*/b string; c /*s2c3*/ string; d string /*s2c4*/}
